@@ -1,27 +1,26 @@
 {
-    "id": "C973F03D",
-    "path": "D:/R/atta/clean.R",
-    "project_path": "clean.R",
+    "id": "6670762B",
+    "path": "D:/R/atta/limpieza.R",
+    "project_path": "limpieza.R",
     "type": "r_source",
     "hash": "0",
     "contents": "",
-    "dirty": false,
-    "created": 1738440257980.0,
+    "dirty": true,
+    "created": 1738557436663.0,
     "source_on_save": false,
     "relative_order": 1,
     "properties": {
-        "tempName": "Untitled1",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "52,27",
-        "scrollLine": "12"
+        "cursorPosition": "73,0",
+        "scrollLine": "7"
     },
     "folds": "",
-    "lastKnownWriteTime": 1738517271,
+    "lastKnownWriteTime": 1738558858,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1738517271220,
+    "last_content_update": 1738559405342,
     "read_only": false,
     "read_only_alternatives": []
 }

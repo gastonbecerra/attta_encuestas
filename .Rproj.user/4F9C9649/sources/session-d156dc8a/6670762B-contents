@@ -68,7 +68,6 @@ data2 <- coerce_variables(data2, types_detected)
 data2 <- data2 %>% mutate(across(where(is.character), ~ na_if(.x, "0")))
 
 glimpse(data2)
+skimr::skim(data2)
 
-
-data2$`57 Esta buscando fuente de ingresos` %>% table()
-data2$`58 Busqueda laboral dificultada por identidad` %>% table()
+saveRDS(data2, file = "attta.rds")
