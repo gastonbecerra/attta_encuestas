@@ -69,4 +69,5 @@ data2 <- data2 %>% mutate(across(where(is.character), ~ na_if(.x, "0")))
 
 glimpse(data2)
 skimr::skim(data2)
-view(data2)
+
+saveRDS(data2, file = "attta.rds")
